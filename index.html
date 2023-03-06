@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dress Up game</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scripts/index.js" defer></script>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            height: 100%;
+        }
+
+        p {
+            margin: 0;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <div class="container">
+        <p>aaaaa</p>
+        <button id="haircut-btn-sample1" onclick="setSelectedHairCut('haircut-sample1')">haircut1</button>
+        <button id="haircut-btn-sample2" onclick="setSelectedHairCut('haircut-sample2')">haircut2</button>
+        <div id="zoomable-element">
+            <img src="./assets/sample3-removebg-preview.png" style="height: 149px;">
+            <img class="haircut" id="haircut-sample1" src="./assets/sample1.png">
+            <img class="haircut" id="haircut-sample2" src="./assets/sample2.png">
+        </div>
+    </div>
+
+</body>
+
+</html>
